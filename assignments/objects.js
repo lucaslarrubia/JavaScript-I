@@ -32,7 +32,7 @@ const kennan = {
   email: 'kdiben1@tinypic.com', 
   gender: 'M',
   speak: function() {
-    console.log("Hello, my name is Kennan!");
+    return `Hello, my name is ${this.name}!`
   } 
 }
 
@@ -56,7 +56,7 @@ const antonietta = {
   email: 'adaine5@samsung.com',
   gender: 'F', 
   multiplyNums: function(a, b) {
-    console.log(a * b);
+    return a * b;
   }
 }
 
